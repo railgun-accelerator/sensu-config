@@ -5,7 +5,7 @@
       "subscribers": [
         "railgun"
       ],
-      "interval": 60,
+      "interval": 60
     }
   }
 }
