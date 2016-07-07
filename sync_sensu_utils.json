@@ -3,7 +3,7 @@
     "sync_sensu_utils": {
       "command": "/opt/sensu/sensu_utils/sync.sh",
       "subscribers": [
-        "atom"
+        "railgun"
       ],
       "publish": false,
       "timeout": 600
