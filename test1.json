@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "test1": {
+      "command": "/opt/sensu/sensu_utils/test1.sh",
+      "subscribers": [
+        "railgun"
+      ],
+      "interval": 60,
+    }
+  }
+}
