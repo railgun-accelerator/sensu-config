@@ -2,7 +2,8 @@
   "handlers": {
     "mail_handler": {
       "type": "pipe",
-      "command": "/etc/sensu/handlers/send_mail.sh"
+      "command": "/etc/sensu/handlers/send_mail.sh",
+	  "filter": "filter_interval_60_hourly"
     }
   }
 }
