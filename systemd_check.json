@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "systemd_check": {
+      "command": "/opt/sensu/sensu_utils/systemd_check.sh",
+      "subscribers": [
+        "railgun"
+      ],
+      "interval": 60
+    }
+  }
+}
