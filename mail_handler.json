@@ -1,0 +1,8 @@
+{
+  "handlers": {
+    "mail_handler": {
+      "type": "pipe",
+      "command": "/etc/sensu/send_mail.sh"
+    }
+  }
+}
