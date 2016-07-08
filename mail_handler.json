@@ -2,7 +2,7 @@
   "handlers": {
     "mail_handler": {
       "type": "pipe",
-      "command": "/etc/sensu/send_mail.sh"
+      "command": "/etc/sensu/handlers/send_mail.sh"
     }
   }
 }
