@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "install_plugin": {
+      "command": "/opt/sensu/sensu_utils/install_plugin.sh",
+      "subscribers": [
+        "railgun"
+      ],
+      "publish": false,
+      "timeout": 600
+    }
+  }
+}
